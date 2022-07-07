@@ -416,7 +416,7 @@ header {
 /* Styling Next and Prev buttons */
 
 .owl-theme .owl-controls .owl-buttons div{
-	color: #FFF;
+	color: #F47F20;
 	display: inline-block;
 	zoom: 1;
 	*display: inline;/*IE7 life-saver */
@@ -538,7 +538,7 @@ header {
    8. Section Testimonial                 
 ========================================= */
 #testimonial {
-	background: url(../images/bg.jpg) 50% 0 no-repeat fixed;
+	background: url(../images/bg2.jpg) 50% 0 no-repeat fixed;
 	background-size: cover;
 }
 .bg-testimonial {
