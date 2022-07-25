@@ -92,7 +92,7 @@ body {
 /* HOME SECTION STYLING */
 .home {
     display: flex;
-    background: url("newimgs/mule-logo.png") no-repeat;
+    background: url("images/mule-logo.png") no-repeat;
     background-size: 1000px;
     background-position: 50% 70%;
     background-color: #f39237;
