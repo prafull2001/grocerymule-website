@@ -311,18 +311,94 @@ footer {
 }
 
 /* RESPONSIVE MEDIA (phone resizing) */
-@media (max-width: 1400px) {
+/* 4k screens */
+@media (max-width: 2560px) {
+    .home {
+        background-size: 1400px;
+    }
+    .home-content h1 {
+        font-size: 100px;
+        margin-top: 300px;
+        margin-bottom: 300px;
+    }
+    .home-content h2 {
+        font-size: 60px;
+    }
+    .mission-content h2 {
+        font-size: 70px;
+    }
+    .mission-content p {
+        font-size: 28px;
+    }
+    .mission-content img {
+        width: 50%;
+        height: auto;
+    }
+    .features .features-content .slide img {
+        width: 20vw;
+        margin-left: 2.5vw;
+    }
+    .features-content .slideshow-container {
+        width: 20vw;
+        margin: auto;
+    }
+    .team-content h2 {
+        font-size: 70px;
+    }
+    .team-content img {
+        height: 400px;
+        width: 400px;
+    }
+    .team-content h3 {
+        font-size: 40px;
+    }
+    .team-content p {
+        font-size: 30px;
+    }
+}
+/* macbook pro resolution (16 inch) */
+@media (max-width: 1800px) {
     .home {
         background-size: 950px;
         background-position: 50% 60%;
+    }
+    .home h1 {
+        font-size: 80px;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 250px;
+        margin-bottom: 250px;
+    }
+    .home h2 {
+        font-size: 40px;
+        font-weight: 300;
+        text-align: center;
     }
     .team-content h2 {
         margin-top: -50px;
         margin-bottom: 50px;
     }
-    .team-content p {
+    .mission-content h2 {
+        color: #ef7b45;
+        font-size: 56px;
+        font-weight: 300;
+    }
+    .mission-content p {
         font-size: 20px;
     }
+    .team-content h2 {
+        font-size: 60px;
+    }
+    .team-content img {
+        height: 250px;
+        width: 250px;
+    }
+    .team-content h3 {
+        font-size: 30px;
+    }
+    .team-content p {
+        font-size: 20px;
+    }    
 }
 @media (max-width: 1080px) {
     .navbar .menu {
